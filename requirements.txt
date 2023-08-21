@@ -28,7 +28,26 @@ safetensors
 scikit-image>=0.19
 timm
 tomesd
-torch
+
+flask
+flask-cloudflared
+flask-cors
+flask-compress
+markdown
+Pillow
+colorama
+webuiapi
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==2.0.0+cu117
+torchvision==0.15.1
+torchaudio==2.0.1+cu117
+accelerate
+transformers==4.28.1
+diffusers==0.16.1
+silero-api-server
+chromadb
+sentence_transformers
+edge-tts
 torchdiffeq
 torchsde
 transformers==4.30.2
